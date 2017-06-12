@@ -1,2 +1,66 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.stroke {
+    //margin-left: 100px;
+}
+
+.drpdn {
+    margin-left: 100px;
+    padding: none !important;
+    //opacity: 0;
+    color: #ffffff;
+    background: 0%;
+    hover-action: none;
+    hover: none;
+}
+
+.drptxt {
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-image: asset-url("bnr.jpg");
+    //background-size: content;
+    //background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    //max-width: 100%;
+    //max-height: 100%;
+    height: 350px;
+}
+
+.pagebg {
+    background-image: asset-url("bkg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    //background-origin: content-box;
+    //padding: none;
+    //border: none;
+    //padding-bottom: 0px !important;
+    //margin: 0px;
+    //margin-bottom: 0px !important;
+    //background-position: center;
+    //background-size: cover;
+    //float: center;
+    //height: 500px;
+    //background-size: 100% 100%;
+    //height: auto;
+    //width: auto;
+    //max-width: 100%;
+    //max-height: 100%;
+    //object-fit: contain;
+    //object-fit: cover;
+    //opacity: 0.75;
+    //object-fit: fill;
+}
+
+//.pagebg img {
+//    object-fit: cover;
+//}
+
+.pgtxt {
+    //text-color: #ffffff;
+    color: #ffffff;
+}

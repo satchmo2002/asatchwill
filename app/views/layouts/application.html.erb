@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+
+ <div class= "pagebg" > 
 <html>
+  
+  
 <head>
   <title>Asatchwill</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -7,8 +11,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  
+  
+<div class="center jumbotron drptxt">
+  <div class= "drptxt" >
+  <div class="dropdown drptxt">
+  <button class="btn btn-default dropdown-toggle drpdn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <h1 class= "stroke" >APPS</h1>
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu drpdn drptxt" aria-labelledby="dropdownMenu1">
+    <li><a href="https://finance-tracker-asatchwill.herokuapp.com" target="_blank">Finance Tracker Application</a></li>
+    <li><a href="https://alpha-blog-asatchwill.herokuapp.com" target="_blank">Alpha Blog Application</a></li>
+    <li role="separator" class="divider"></li>
+    <li><%= link_to "Home Page", root_path %></li>
+    <li><%= link_to "About Page", about_path %></li>
+  </ul>
+</div>
+</div>
+</div>
+
+
 
 <%= yield %>
 
+
+
 </body>
+  
 </html>
+</div>
+
