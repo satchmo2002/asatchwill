@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 
- <div class= "pagebg" > 
-<html>
+ <div class= "" id= "" > 
+<html class= "" >
   
   
 <head>
   <title>Asatchwill</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" type="text/css" href="custom2.css.scss">
+  <%= stylesheet_link_tag :all %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class= "pagebg" id= "pagebg" >
   
   
-<div class="center jumbotron drptxt">
-  <div class= "drptxt" >
-  <div class="dropdown drptxt">
-  <button class="btn btn-default dropdown-toggle drpdn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    <h1 class= "stroke" >APPS</h1>
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu drpdn drptxt" aria-labelledby="dropdownMenu1">
-    <li><a href="https://finance-tracker-asatchwill.herokuapp.com" target="_blank">Finance Tracker Application</a></li>
-    <li><a href="https://alpha-blog-asatchwill.herokuapp.com" target="_blank">Alpha Blog Application</a></li>
-    <li role="separator" class="divider"></li>
-    <li><%= link_to "Home Page", root_path %></li>
-    <li><%= link_to "About Page", about_path %></li>
-  </ul>
-</div>
-</div>
+<div class="center jumbotron">
+  <div class= "" >
+    <div class="dropdown">
+      <button class="btn dropdown btn-default dropdown-toggle drpdn drptxt" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <h1 class= "stroke" >Projects</h1>
+      <span class="caret"></span>
+      </button>
+        <ul class="dropdown dropdown-menu drpdn drptxt" aria-labelledby="dropdownMenu1">
+          <li><a href="https://finance-tracker-asatchwill.herokuapp.com" target="_blank" class= "apps" >Finance Tracker Application</a></li>
+          <li><a href="https://alpha-blog-asatchwill.herokuapp.com" target="_blank" class= "apps" >Alpha Blog Application</a></li>
+          <!--<li role="separator" class="divider"></li>-->
+          <li><%#= link_to "Home Page", root_path %></li>
+          <li><%#= link_to "About Page", about_path %></li>
+        </ul>
+    </div>
+  </div>
+  <div class= "links" >
+    <%= link_to "Home", root_path, class: "btn btn-sm btn-default links-in" %>
+    <%= link_to "About", about_path, class: "btn btn-sm btn-default links-in" %>
+  </div>
 </div>
 
 

@@ -3,21 +3,46 @@
 
 .stroke {
     //margin-left: 100px;
+    //color: #ffffff;
+    //background: 0%;
 }
 
 .drpdn {
     margin-left: 100px;
     padding: none !important;
     //opacity: 0;
-    color: #ffffff;
-    background: 0%;
-    hover-action: none;
-    hover: none;
+}
+
+//.apps {
+//    color: #ffffff !important;
+//    background: 0% !important;
+//}
+
+.apps a:hover {
+    //color: #ffffff !important;
+    //background: 0% !important;
+    //color: #000000 !important;
+}
+
+.drptxt li {
+    //color: #ffffff;
+    //background: 0%;
 }
 
 .drptxt {
-    color: #ffffff;
+    color: #ffffff !important;
+    background: 0% !important;
+    padding: none;
 }
+
+.drptxt:hover, .drptxt:active {
+    //background: 0%;
+    //color: #000000;
+}
+
+//.drptxt:active {
+//    background: 0% !important;
+//}
 
 .jumbotron {
     background-image: asset-url("bnr.jpg");
@@ -31,10 +56,39 @@
     height: 350px;
 }
 
-.pagebg {
-    background-image: asset-url("bkg3.jpg");
+.links {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ffffff;
+    text-transform: none;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.links-in {
+    color: #ffffff;
+    text-transform: none;
+    background: 0%;
+}
+
+html, body {
+    height: 100%;
+}
+
+#pagebg {
+    background-image: asset-url("bkg4.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    //height: 950px;
+    //background-size: auto auto;
+    //background-size: inherit;
+    //background-size: unset;
+    //background-size: unset;
+    //background-size: unset;
+    //background-size: unset;
+    //background-size: unset;
+    //background-size: unset;
+    //background-size: 100% 100%;
     //background-origin: content-box;
     //padding: none;
     //border: none;
@@ -45,9 +99,10 @@
     //background-size: cover;
     //float: center;
     //height: 500px;
-    //background-size: 100% 100%;
+    background-size: 100% 100%;
     //height: auto;
     //width: auto;
+    //min-height: 2500px;
     //max-width: 100%;
     //max-height: 100%;
     //object-fit: contain;
